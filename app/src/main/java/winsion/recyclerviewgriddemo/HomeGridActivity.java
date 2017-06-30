@@ -35,7 +35,7 @@ public class HomeGridActivity extends AppCompatActivity {
             } else if (i == 5) {
                 mList.add(new HomeGrid(HomeGridAdapter.TYPE_NORMAL_IMG, R.mipmap.ic_launcher, "Y", getResources().getColor(R.color.colorPrimaryDark)));
             } else {
-                mList.add(new HomeGrid(HomeGridAdapter.TYPE_NORMAL, R.mipmap.ic_launcher, i + "", getResources().getColor(R.color.colorAccent)));
+                mList.add(new HomeGrid(HomeGridAdapter.TYPE_NORMAL, R.mipmap.ic_launcher_round, i + "", getResources().getColor(R.color.colorAccent)));
             }
         }
 
